@@ -1,18 +1,25 @@
 body {
   margin: 0;
+  text-align: center;
   font-family: 'Arial';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 
 code {
   font-family: Arial;
 }
 
 .app {
-  background: #209cee;
-  padding: 30px;
-  height: 100vh;
+  background: #9B938D;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+  border: #000000;
+  
 }
 
 .todo-list{
@@ -20,10 +27,11 @@ code {
   border-radius: 4px;
   padding: 5px;
   max-width: 400px;
+
 }
 
 .todo{
-  background: #fff;
+  background: #33D5FF;
   box-shadow: 1px 1px 1px rgba(0,0,0, 0.15);
   padding: 3px 10px;
   font-size: 24px;
